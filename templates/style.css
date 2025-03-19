@@ -1,0 +1,80 @@
+* box{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.container{
+    margin: 20px auto;
+}
+.container .color-switcher {
+ list-style: none;
+ margin-bottom: 20px;
+ text-align: center;
+
+}
+.container .color-switcher li{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block; 
+
+}
+.container .color-switcher li:first-child{
+    background-color: red;
+}
+.container .color-switcher li:nth-child(2){
+    background-color: #16a085;
+}
+
+.container .color-switcher li:nth-child(3){
+    background-color: #8e44ad;
+}
+.container .color-switcher li:nth-child(4){
+    background-color: #2c3e50;
+}
+.container h3{
+    color: red;
+}
+.container div {
+    background-color: red;
+    padding: 20px;
+    color: #FFF;
+
+}
+.red .container h3{
+ color: red;
+}
+.red .container div{
+    background-color: red;
+    padding: 20px;
+    color: #FFF;
+}
+.green .container h3{
+color: #16a085;
+}
+.green .container div{
+    background-color: #16a085;
+    padding: 20px;
+    color: #FFF;
+}
+.purple .container h3{
+    color: #8e44ad;
+
+}
+.purple .container div{
+    background-color: #8e44ad;
+    padding: 20px;
+    color: #FFF;
+}
+
+.black .container h3{
+    color: #2c3e50;
+
+}
+.black .container div{
+    background-color: #2c3e50;
+    padding: 20px;
+    color: #FFF;
+}
