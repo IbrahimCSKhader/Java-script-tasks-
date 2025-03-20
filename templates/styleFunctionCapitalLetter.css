@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    font: 1em sans-serif;
+
+}
+h1{
+    border: solid 10px rgb(26, 39, 126);
+    border-radius: 20px;
+    color: blueviolet;
+}
+h3{
+    border: solid 10px rgb(26, 39, 126);
+    border-radius: 20px;
+    max-width: 200px; 
+    align-items: center; 
+    margin-left: 550px;
+    
+}
